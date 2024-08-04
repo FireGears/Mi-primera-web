@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto con html 5</title>
+    <link rel="icon" type="image/png" href="imagenes/favicon.png"/>
+
+    <style>
+        article{
+            border-bottom: 1px solid gray;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Proyecto con html 5</h1>
+        <nav>
+            <!--Menu-->
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="multimedia.html">Multimedia</a></li>
+                <li><a href="dieta.html">Dieta</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="Contacto">
+            <h2>Contacto</h2>
+            <form>
+                <div>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre"/>
+                </div>
+                <div>
+                    <label for="apellido">Apellido:</label>
+                    <input type="text" id="apellido"/>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"/>
+                </div>
+                <div>
+                    <label for="edad">Edad:</label>
+                    <input type="number" id="edad"/>
+                </div>
+                <div>
+                    <label for="genero">Genero:</label>
+                    <select id="genero">
+                        <option value="hombre">Hombre</option>
+                        <option value="mujer">Mujer</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="motivo">Motivo</label>
+                    <textarea id="motivo"></textarea>
+                </div>
+                <input type="submit" value = "Enviar"/>
+            </form>
+        </section>
+        <hr/>
+    </main>
+    <footer>
+        Proyecto de html con ejerciios de Victor Robles &copy; 2024 - <a href="#top">Subir</a>
+    </footer>
+</body>
+</html>
